@@ -48,7 +48,7 @@
             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
          </padding>
          <children>
-            <Label id="a0" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" text="   " textAlignment="JUSTIFY">
+            <Label id="a0" fx:id="a0" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" text="   " textAlignment="JUSTIFY">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -56,7 +56,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label id="a1" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="1">
+            <Label id="a1" fx:id="a1" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="1">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -64,7 +64,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label id="a2" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="2">
+            <Label id="a2" fx:id="a2" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="2">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -72,7 +72,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label id="a3" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="3">
+            <Label id="a3" fx:id="a3" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="3">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -80,7 +80,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label id="a4" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="4">
+            <Label id="a4" fx:id="a4" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="4">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -309,38 +309,38 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button id="qbutton" mnemonicParsing="false" onAction="#qaction" prefHeight="229.0" prefWidth="46.0" text="Q" textAlignment="CENTER" />
-            <Button id="wbutton" mnemonicParsing="false" onAction="#waction" prefHeight="30.0" prefWidth="46.0" text="W" GridPane.columnIndex="1" />
-            <Button id="ebutton" mnemonicParsing="false" onAction="#eaction" prefHeight="30.0" prefWidth="46.0" text="E" GridPane.columnIndex="2" />
-            <Button id="rbutton" mnemonicParsing="false" onAction="#raction" prefHeight="30.0" prefWidth="46.0" text="R" GridPane.columnIndex="3" />
-            <Button id="tbutton" mnemonicParsing="false" onAction="#taction" prefHeight="30.0" prefWidth="46.0" text="T" GridPane.columnIndex="4" />
-            <Button id="ybutton" mnemonicParsing="false" onAction="#yaction" prefHeight="30.0" prefWidth="46.0" text="Y" GridPane.columnIndex="5" />
-            <Button id="ubutton" mnemonicParsing="false" onAction="#uaction" prefHeight="30.0" prefWidth="46.0" text="U" GridPane.columnIndex="6" />
-            <Button id="ibutton" mnemonicParsing="false" onAction="#iaction" prefHeight="30.0" prefWidth="46.0" text="I" GridPane.columnIndex="7" />
-            <Button id="obutton" mnemonicParsing="false" onAction="#oaction" prefHeight="30.0" prefWidth="46.0" text="O" GridPane.columnIndex="8" />
-            <Button id="pbutton" mnemonicParsing="false" onAction="#paction" prefHeight="30.0" prefWidth="46.0" text="P" GridPane.columnIndex="9" />
-            <Button id="abutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="A" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <Button id="sbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="S" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-            <Button id="dbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="D" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-            <Button id="fbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="F" GridPane.columnIndex="4" GridPane.rowIndex="1" />
-            <Button id="gbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="G" GridPane.columnIndex="5" GridPane.rowIndex="1" />
-            <Button id="hbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="H" GridPane.columnIndex="6" GridPane.rowIndex="1" />
-            <Button id="jbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="J" GridPane.columnIndex="7" GridPane.rowIndex="1" />
-            <Button id="kbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="K" GridPane.columnIndex="8" GridPane.rowIndex="1" />
-            <Button id="lbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="L" GridPane.columnIndex="9" GridPane.rowIndex="1" />
-            <Button id="ent" mnemonicParsing="false" prefHeight="100.0" prefWidth="46.0" text="ENTER" textAlignment="CENTER" GridPane.rowIndex="1" GridPane.rowSpan="2">
+            <Button id="Q" fx:id="qbutton" mnemonicParsing="false" onAction="#qaction" prefHeight="229.0" prefWidth="46.0" text="Q" textAlignment="CENTER" />
+            <Button fx:id="wbutton" mnemonicParsing="false" onAction="#waction" prefHeight="30.0" prefWidth="46.0" text="W" GridPane.columnIndex="1" />
+            <Button fx:id="ebutton" mnemonicParsing="false" onAction="#eaction" prefHeight="30.0" prefWidth="46.0" text="E" GridPane.columnIndex="2" />
+            <Button fx:id="rbutton" mnemonicParsing="false" onAction="#raction" prefHeight="30.0" prefWidth="46.0" text="R" GridPane.columnIndex="3" />
+            <Button fx:id="tbutton" mnemonicParsing="false" onAction="#taction" prefHeight="30.0" prefWidth="46.0" text="T" GridPane.columnIndex="4" />
+            <Button fx:id="ybutton" mnemonicParsing="false" onAction="#yaction" prefHeight="30.0" prefWidth="46.0" text="Y" GridPane.columnIndex="5" />
+            <Button fx:id="ubutton" mnemonicParsing="false" onAction="#uaction" prefHeight="30.0" prefWidth="46.0" text="U" GridPane.columnIndex="6" />
+            <Button fx:id="ibutton" mnemonicParsing="false" onAction="#iaction" prefHeight="30.0" prefWidth="46.0" text="I" GridPane.columnIndex="7" />
+            <Button fx:id="obutton" mnemonicParsing="false" onAction="#oaction" prefHeight="30.0" prefWidth="46.0" text="O" GridPane.columnIndex="8" />
+            <Button fx:id="pbutton" mnemonicParsing="false" onAction="#paction" prefHeight="30.0" prefWidth="46.0" text="P" GridPane.columnIndex="9" />
+            <Button fx:id="abutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="A" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="sbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="S" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="dbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="D" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button fx:id="fbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="F" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Button fx:id="gbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="G" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Button fx:id="hbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="H" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Button fx:id="jbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="J" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+            <Button fx:id="kbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="K" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+            <Button fx:id="lbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="L" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+            <Button fx:id="ent" mnemonicParsing="false" prefHeight="100.0" prefWidth="46.0" text="ENTER" textAlignment="CENTER" GridPane.rowIndex="1" GridPane.rowSpan="2">
                <font>
                   <Font size="9.0" />
                </font>
             </Button>
-            <Button id="zbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="Z" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <Button id="xbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="X" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-            <Button id="cbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="C" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-            <Button id="vbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="V" GridPane.columnIndex="4" GridPane.rowIndex="2" />
-            <Button id="bbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="B" GridPane.columnIndex="5" GridPane.rowIndex="2" />
-            <Button id="nbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="N" GridPane.columnIndex="6" GridPane.rowIndex="2" />
-            <Button id="mbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="M" GridPane.columnIndex="7" GridPane.rowIndex="2" />
-            <Button id="cle" mnemonicParsing="false" prefHeight="59.0" prefWidth="97.0" text="CLEAR" GridPane.columnIndex="8" GridPane.columnSpan="2" GridPane.rowIndex="2" />
+            <Button fx:id="zbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="Z" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="X" GridPane.columnIndex="2" GridPane.rowIndex="2" fx:id="xbutton" />
+            <Button fx:id="cbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="C" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button fx:id="vbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="V" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Button fx:id="bbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="B" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Button fx:id="nbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="N" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Button fx:id="mbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="M" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+            <Button fx:id="cle" mnemonicParsing="false" onAction="#clraction" prefHeight="59.0" prefWidth="97.0" text="CLEAR" GridPane.columnIndex="8" GridPane.columnSpan="2" GridPane.rowIndex="2" />
          </children>
          <VBox.margin>
             <Insets left="50.0" right="50.0" top="50.0" />

@@ -1,45 +1,80 @@
 package com.example.proyecto;
 
+import javafx.event.ActionEvent;
 import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
+import java.util.Scanner;
+
 public class play_controller {
-   @FXML
-   private Button qbutton;
-   @FXML
-   private Button wbutton;
-   @FXML public Label a0;
-   @FXML public Label a1;
-   @FXML public Label a2;
-   @FXML public Label a3;
-   @FXML public Label a4;
-
-
-   public void qaction(Event e){
-      qbutton.setText("W");
-
+   public void initialize(){
+      labels=new Label[]{a0,a1,a2,a3,a4};
    }
 
-   public void waction(Event e){
-      a0.setText("W");
-      a0.toString();
-   } public void eaction(Event e){
-      a0.setText("e");
-   } public void raction(Event e){
+   @FXML public Label a0,a1,a2,a3,a4;
+   private int labelspace=0;
+   private Label[] labels;
+   private String word="MARTA"
+
+
+  /// @FXML private void presiondeboton(ActionEvent e){
+     /// a0.setText(e.toString());
+   ///}
+  public void qaction(){
+     if (labelspace<5){
+     labels[labelspace].setText("Q");
+     labelspace++;}
+  }
+   public void waction(){
+      labels[labelspace].setText("W");
+      labelspace++;
+   }
+
+
+    public void eaction(){
+      labels[labelspace].setText("e");
+   }
+   public void raction(){
       a0.setText("r");
-   } public void taction(Event e){
+   }
+   public void taction(){
       a0.setText("t");
-   } public void yaction(Event e){
+   }
+   public void yaction(){
       a0.setText("y");
-   } public void uaction(Event e){
+   }
+   public void uaction(){
       a0.setText("u");
-   } public void iaction(Event e){
+   }
+   public void iaction(){
       a0.setText("i");
-   } public void oaction(Event e){
+   }
+   public void oaction(){
       a0.setText("o");
-   } public void paction(Event e){
+   }
+   public void paction(){
       a0.setText("p");
    }
-}
+   @FXML private void clraction(){
+     if (labelspace>0){labels[labelspace-1].setText("");
+     labelspace--;}
+
+   }
+   @FXML private void entaction(){
+     if(labelspace==5){
+        String attemp;
+        for(int i=0;i<labels.length;i++){
+           attemp=labels[i];
+        }
+
+
+        
+
+
+     }
+   }
+
+   }
+
