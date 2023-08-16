@@ -88,7 +88,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.rowIndex="1">
+            <Label fx:id="b0" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.rowIndex="1">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -96,7 +96,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <Label fx:id="b1" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -104,7 +104,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <Label fx:id="b2" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="2" GridPane.rowIndex="1">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -112,7 +112,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="3" GridPane.rowIndex="1">
+            <Label fx:id="b3" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="3" GridPane.rowIndex="1">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -120,7 +120,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="4" GridPane.rowIndex="1">
+            <Label fx:id="b4" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="4" GridPane.rowIndex="1">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -128,7 +128,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.rowIndex="2">
+            <Label fx:id="c0" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.rowIndex="2">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -136,7 +136,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <Label fx:id="c1" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -144,7 +144,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="2" GridPane.rowIndex="2">
+            <Label fx:id="c2" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="2" GridPane.rowIndex="2">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -152,7 +152,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="3" GridPane.rowIndex="2">
+            <Label fx:id="c3" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="3" GridPane.rowIndex="2">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -160,7 +160,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="4" GridPane.rowIndex="2">
+            <Label fx:id="c4" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="4" GridPane.rowIndex="2">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -168,7 +168,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.rowIndex="3">
+            <Label fx:id="d0" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.rowIndex="3">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -176,7 +176,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="1" GridPane.rowIndex="3">
+            <Label fx:id="d1" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="1" GridPane.rowIndex="3">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -184,7 +184,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="2" GridPane.rowIndex="3">
+            <Label fx:id="d2" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="2" GridPane.rowIndex="3">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -192,7 +192,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="3" GridPane.rowIndex="3">
+            <Label fx:id="d3" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="3" GridPane.rowIndex="3">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -200,7 +200,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="62.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="4" GridPane.rowIndex="3">
+            <Label fx:id="d4" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="62.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="4" GridPane.rowIndex="3">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -208,7 +208,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.rowIndex="4">
+            <Label fx:id="e0" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.rowIndex="4">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -216,7 +216,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="1" GridPane.rowIndex="4">
+            <Label fx:id="e1" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="1" GridPane.rowIndex="4">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -224,7 +224,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="2" GridPane.rowIndex="4">
+            <Label fx:id="e2" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="2" GridPane.rowIndex="4">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -232,7 +232,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="3" GridPane.rowIndex="4">
+            <Label fx:id="e3" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="3" GridPane.rowIndex="4">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -240,7 +240,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="4" GridPane.rowIndex="4">
+            <Label fx:id="e4" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="4" GridPane.rowIndex="4">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -248,7 +248,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.rowIndex="5">
+            <Label fx:id="f0" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.rowIndex="5">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -256,7 +256,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="1" GridPane.rowIndex="5">
+            <Label fx:id="f1" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="1" GridPane.rowIndex="5">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -264,7 +264,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="2" GridPane.rowIndex="5">
+            <Label fx:id="f2" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="2" GridPane.rowIndex="5">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -272,7 +272,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="3" GridPane.rowIndex="5">
+            <Label fx:id="f3" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="3" GridPane.rowIndex="5">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -280,7 +280,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="4" GridPane.rowIndex="5">
+            <Label fx:id="f4" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="4" GridPane.rowIndex="5">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -319,26 +319,26 @@
             <Button fx:id="ibutton" mnemonicParsing="false" onAction="#iaction" prefHeight="30.0" prefWidth="46.0" text="I" GridPane.columnIndex="7" />
             <Button fx:id="obutton" mnemonicParsing="false" onAction="#oaction" prefHeight="30.0" prefWidth="46.0" text="O" GridPane.columnIndex="8" />
             <Button fx:id="pbutton" mnemonicParsing="false" onAction="#paction" prefHeight="30.0" prefWidth="46.0" text="P" GridPane.columnIndex="9" />
-            <Button fx:id="abutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="A" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <Button fx:id="sbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="S" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-            <Button fx:id="dbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="D" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-            <Button fx:id="fbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="F" GridPane.columnIndex="4" GridPane.rowIndex="1" />
-            <Button fx:id="gbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="G" GridPane.columnIndex="5" GridPane.rowIndex="1" />
-            <Button fx:id="hbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="H" GridPane.columnIndex="6" GridPane.rowIndex="1" />
-            <Button fx:id="jbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="J" GridPane.columnIndex="7" GridPane.rowIndex="1" />
-            <Button fx:id="kbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="K" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+            <Button fx:id="abutton" mnemonicParsing="false" onAction="#aaction" prefHeight="30.0" prefWidth="46.0" text="A" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="sbutton" mnemonicParsing="false" onAction="#saction" prefHeight="30.0" prefWidth="46.0" text="S" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="dbutton" mnemonicParsing="false" onAction="#daction" prefHeight="30.0" prefWidth="46.0" text="D" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button fx:id="fbutton" mnemonicParsing="false" onAction="#faction" prefHeight="30.0" prefWidth="46.0" text="F" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Button fx:id="gbutton" mnemonicParsing="false" onAction="#gaction" prefHeight="30.0" prefWidth="46.0" text="G" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Button fx:id="hbutton" mnemonicParsing="false" onAction="#haction" prefHeight="30.0" prefWidth="46.0" text="H" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Button fx:id="jbutton" mnemonicParsing="false" onAction="#jaction" prefHeight="30.0" prefWidth="46.0" text="J" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+            <Button fx:id="kbutton" mnemonicParsing="false" onAction="#kaction" prefHeight="30.0" prefWidth="46.0" text="K" GridPane.columnIndex="8" GridPane.rowIndex="1" />
             <Button fx:id="lbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="L" GridPane.columnIndex="9" GridPane.rowIndex="1" />
             <Button fx:id="ent" mnemonicParsing="false" onAction="#entaction" prefHeight="100.0" prefWidth="46.0" text="ENTER" textAlignment="CENTER" GridPane.rowIndex="1" GridPane.rowSpan="2">
                <font>
                   <Font size="9.0" />
                </font>
             </Button>
-            <Button fx:id="zbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="Z" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="X" GridPane.columnIndex="2" GridPane.rowIndex="2" fx:id="xbutton" />
-            <Button fx:id="cbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="C" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-            <Button fx:id="vbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="V" GridPane.columnIndex="4" GridPane.rowIndex="2" />
-            <Button fx:id="bbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="B" GridPane.columnIndex="5" GridPane.rowIndex="2" />
-            <Button fx:id="nbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="N" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Button fx:id="zbutton" mnemonicParsing="false" onAction="#zaction" prefHeight="30.0" prefWidth="46.0" text="Z" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#xaction" prefHeight="30.0" prefWidth="46.0" text="X" GridPane.columnIndex="2" GridPane.rowIndex="2" fx:id="xbutton" />
+            <Button fx:id="cbutton" mnemonicParsing="false" onAction="#caction" prefHeight="30.0" prefWidth="46.0" text="C" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button fx:id="vbutton" mnemonicParsing="false" onAction="#vaction" prefHeight="30.0" prefWidth="46.0" text="V" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Button fx:id="bbutton" mnemonicParsing="false" onAction="#baction" prefHeight="30.0" prefWidth="46.0" text="B" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Button fx:id="nbutton" mnemonicParsing="false" onAction="#naction" prefHeight="30.0" prefWidth="46.0" text="N" GridPane.columnIndex="6" GridPane.rowIndex="2" />
             <Button fx:id="mbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="M" GridPane.columnIndex="7" GridPane.rowIndex="2" />
             <Button fx:id="cle" mnemonicParsing="false" onAction="#clraction" prefHeight="59.0" prefWidth="97.0" text="CLEAR" GridPane.columnIndex="8" GridPane.columnSpan="2" GridPane.rowIndex="2" />
          </children>
