@@ -20,7 +20,7 @@ public class Proyecto extends Application{
 
     public static void main(String[] args) {
         launch(args);
-        String palabra="MARTA";
+        /*String palabra="MARTA";
         String palabrahide=".....";
         System.out.println(palabrahide);
         int i=0;
@@ -39,12 +39,12 @@ public class Proyecto extends Application{
       }else {
           System.out.println("perdiste");
           System.out.println("la palabra correcta era "+palabra);
-      }
+     */ }
 
 
 
     }
-   static String proyecto(String word,String wordin){
+   /*static String proyecto(String word,String wordin){
         String retorno="";
         String valores="";
         for (int i=0;i<5;i++){
@@ -65,5 +65,5 @@ public class Proyecto extends Application{
        System.out.println(valores);
        return retorno;
 
-}}
+}*/
 

@@ -327,8 +327,8 @@
             <Button fx:id="hbutton" mnemonicParsing="false" onAction="#haction" prefHeight="30.0" prefWidth="46.0" text="H" GridPane.columnIndex="6" GridPane.rowIndex="1" />
             <Button fx:id="jbutton" mnemonicParsing="false" onAction="#jaction" prefHeight="30.0" prefWidth="46.0" text="J" GridPane.columnIndex="7" GridPane.rowIndex="1" />
             <Button fx:id="kbutton" mnemonicParsing="false" onAction="#kaction" prefHeight="30.0" prefWidth="46.0" text="K" GridPane.columnIndex="8" GridPane.rowIndex="1" />
-            <Button fx:id="lbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="L" GridPane.columnIndex="9" GridPane.rowIndex="1" />
-            <Button fx:id="ent" mnemonicParsing="false" onAction="#entaction" prefHeight="100.0" prefWidth="46.0" text="ENTER" textAlignment="CENTER" GridPane.rowIndex="1" GridPane.rowSpan="2">
+            <Button fx:id="lbutton" mnemonicParsing="false" onAction="#laction" prefHeight="30.0" prefWidth="46.0" text="L" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+            <Button id="ent" fx:id="ent" mnemonicParsing="false" onAction="#entaction" prefHeight="100.0" prefWidth="46.0" text="ENTER" textAlignment="CENTER" GridPane.rowIndex="1" GridPane.rowSpan="2">
                <font>
                   <Font size="9.0" />
                </font>
@@ -339,7 +339,7 @@
             <Button fx:id="vbutton" mnemonicParsing="false" onAction="#vaction" prefHeight="30.0" prefWidth="46.0" text="V" GridPane.columnIndex="4" GridPane.rowIndex="2" />
             <Button fx:id="bbutton" mnemonicParsing="false" onAction="#baction" prefHeight="30.0" prefWidth="46.0" text="B" GridPane.columnIndex="5" GridPane.rowIndex="2" />
             <Button fx:id="nbutton" mnemonicParsing="false" onAction="#naction" prefHeight="30.0" prefWidth="46.0" text="N" GridPane.columnIndex="6" GridPane.rowIndex="2" />
-            <Button fx:id="mbutton" mnemonicParsing="false" prefHeight="30.0" prefWidth="46.0" text="M" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+            <Button fx:id="mbutton" mnemonicParsing="false" onAction="#maction" prefHeight="30.0" prefWidth="46.0" text="M" GridPane.columnIndex="7" GridPane.rowIndex="2" />
             <Button fx:id="cle" mnemonicParsing="false" onAction="#clraction" prefHeight="59.0" prefWidth="97.0" text="CLEAR" GridPane.columnIndex="8" GridPane.columnSpan="2" GridPane.rowIndex="2" />
          </children>
          <VBox.margin>
