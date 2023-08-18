@@ -5,27 +5,24 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyecto.play_controller">
+<VBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: f2f2f2;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyecto.play_controller">
    <children>
-      <Pane prefHeight="64.0" prefWidth="600.0">
+      <HBox alignment="CENTER" fillHeight="false" maxHeight="Infinity" maxWidth="Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="200.0">
          <children>
-            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="172.0" layoutY="-46.0" style="-fx-alignment: CENTER;" text="WORDLE">
-               <padding>
-                  <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
-               </padding>
+            <Label alignment="TOP_RIGHT" contentDisplay="CENTER" ellipsisString="" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="100.0" prefWidth="425.0" style="-fx-alignment: CENTER;" text="WORDLE" textAlignment="JUSTIFY" wrapText="true" HBox.hgrow="ALWAYS">
                <font>
-                  <Font size="39.0" />
+                  <Font name="Franklin Gothic Book" size="43.0" />
                </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
             </Label>
          </children>
-         <padding>
-            <Insets bottom="50.0" top="5.0" />
-         </padding>
          <VBox.margin>
-            <Insets bottom="50.0" top="10.0" />
+            <Insets />
          </VBox.margin>
-      </Pane>
-      <GridPane hgap="5.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.63" prefHeight="200.0" prefWidth="200.0" vgap="5.0">
+      </HBox>
+      <GridPane hgap="5.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="100.0" minWidth="100.0" opacity="0.63" prefHeight="200.0" prefWidth="200.0" vgap="5.0" VBox.vgrow="ALWAYS">
         <columnConstraints>
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -48,7 +45,7 @@
             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
          </padding>
          <children>
-            <Label id="a0" fx:id="a0" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" text="   " textAlignment="JUSTIFY">
+            <Label id="a0" fx:id="a0" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" text="   " textAlignment="JUSTIFY">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -56,7 +53,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label id="a1" fx:id="a1" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="1">
+            <Label id="a1" fx:id="a1" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="1">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -64,7 +61,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label id="a2" fx:id="a2" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="2">
+            <Label id="a2" fx:id="a2" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="2">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -72,7 +69,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label id="a3" fx:id="a3" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="3">
+            <Label id="a3" fx:id="a3" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="3">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -80,7 +77,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label id="a4" fx:id="a4" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="4">
+            <Label id="a4" fx:id="a4" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="4">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -88,7 +85,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="b0" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.rowIndex="1">
+            <Label fx:id="b0" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.rowIndex="1">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -96,7 +93,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="b1" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <Label fx:id="b1" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -104,7 +101,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="b2" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <Label fx:id="b2" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="2" GridPane.rowIndex="1">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -112,7 +109,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="b3" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="3" GridPane.rowIndex="1">
+            <Label fx:id="b3" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="3" GridPane.rowIndex="1">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -120,7 +117,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="b4" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="4" GridPane.rowIndex="1">
+            <Label fx:id="b4" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="4" GridPane.rowIndex="1">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -128,7 +125,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="c0" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.rowIndex="2">
+            <Label fx:id="c0" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.rowIndex="2">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -136,7 +133,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="c1" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <Label fx:id="c1" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -144,7 +141,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="c2" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="2" GridPane.rowIndex="2">
+            <Label fx:id="c2" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="2" GridPane.rowIndex="2">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -152,7 +149,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="c3" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="3" GridPane.rowIndex="2">
+            <Label fx:id="c3" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="3" GridPane.rowIndex="2">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -160,7 +157,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="c4" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="4" GridPane.rowIndex="2">
+            <Label fx:id="c4" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="4" GridPane.rowIndex="2">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -168,7 +165,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="d0" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.rowIndex="3">
+            <Label fx:id="d0" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.rowIndex="3">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -176,7 +173,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="d1" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="1" GridPane.rowIndex="3">
+            <Label fx:id="d1" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="1" GridPane.rowIndex="3">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -184,7 +181,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="d2" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="2" GridPane.rowIndex="3">
+            <Label fx:id="d2" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="2" GridPane.rowIndex="3">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -192,7 +189,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="d3" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="3" GridPane.rowIndex="3">
+            <Label fx:id="d3" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="3" GridPane.rowIndex="3">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -200,7 +197,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="d4" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="62.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="4" GridPane.rowIndex="3">
+            <Label fx:id="d4" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="62.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="4" GridPane.rowIndex="3">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -208,7 +205,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="e0" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.rowIndex="4">
+            <Label fx:id="e0" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.rowIndex="4">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -216,7 +213,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="e1" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="1" GridPane.rowIndex="4">
+            <Label fx:id="e1" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="1" GridPane.rowIndex="4">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -224,7 +221,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="e2" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="2" GridPane.rowIndex="4">
+            <Label fx:id="e2" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="2" GridPane.rowIndex="4">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -232,7 +229,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="e3" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="3" GridPane.rowIndex="4">
+            <Label fx:id="e3" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="3" GridPane.rowIndex="4">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -240,7 +237,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="e4" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="4" GridPane.rowIndex="4">
+            <Label fx:id="e4" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="4" GridPane.rowIndex="4">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -248,7 +245,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="f0" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.rowIndex="5">
+            <Label fx:id="f0" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.rowIndex="5">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -256,7 +253,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="f1" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="1" GridPane.rowIndex="5">
+            <Label fx:id="f1" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="1" GridPane.rowIndex="5">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -264,7 +261,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="f2" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="2" GridPane.rowIndex="5">
+            <Label fx:id="f2" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="2" GridPane.rowIndex="5">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -272,7 +269,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="f3" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="3" GridPane.rowIndex="5">
+            <Label fx:id="f3" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="3" GridPane.rowIndex="5">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -280,7 +277,7 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
             </Label>
-            <Label fx:id="f4" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="4" GridPane.rowIndex="5">
+            <Label fx:id="f4" alignment="CENTER" contentDisplay="CENTER" ellipsisString=" " prefHeight="30.0" prefWidth="35.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" textAlignment="JUSTIFY" GridPane.columnIndex="4" GridPane.rowIndex="5">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -290,7 +287,7 @@
             </Label>
          </children>
       </GridPane>
-      <GridPane hgap="5.0" vgap="5.0">
+      <GridPane hgap="5.0" maxHeight="100.0" maxWidth="500.0" vgap="5.0">
         <columnConstraints>
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -309,38 +306,119 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button id="Q" fx:id="qbutton" mnemonicParsing="false" onAction="#qaction" prefHeight="229.0" prefWidth="46.0" text="Q" textAlignment="CENTER" />
-            <Button fx:id="wbutton" mnemonicParsing="false" onAction="#waction" prefHeight="30.0" prefWidth="46.0" text="W" GridPane.columnIndex="1" />
-            <Button fx:id="ebutton" mnemonicParsing="false" onAction="#eaction" prefHeight="30.0" prefWidth="46.0" text="E" GridPane.columnIndex="2" />
-            <Button fx:id="rbutton" mnemonicParsing="false" onAction="#raction" prefHeight="30.0" prefWidth="46.0" text="R" GridPane.columnIndex="3" />
-            <Button fx:id="tbutton" mnemonicParsing="false" onAction="#taction" prefHeight="30.0" prefWidth="46.0" text="T" GridPane.columnIndex="4" />
-            <Button fx:id="ybutton" mnemonicParsing="false" onAction="#yaction" prefHeight="30.0" prefWidth="46.0" text="Y" GridPane.columnIndex="5" />
-            <Button fx:id="ubutton" mnemonicParsing="false" onAction="#uaction" prefHeight="30.0" prefWidth="46.0" text="U" GridPane.columnIndex="6" />
-            <Button fx:id="ibutton" mnemonicParsing="false" onAction="#iaction" prefHeight="30.0" prefWidth="46.0" text="I" GridPane.columnIndex="7" />
-            <Button fx:id="obutton" mnemonicParsing="false" onAction="#oaction" prefHeight="30.0" prefWidth="46.0" text="O" GridPane.columnIndex="8" />
-            <Button fx:id="pbutton" mnemonicParsing="false" onAction="#paction" prefHeight="30.0" prefWidth="46.0" text="P" GridPane.columnIndex="9" />
-            <Button fx:id="abutton" mnemonicParsing="false" onAction="#aaction" prefHeight="30.0" prefWidth="46.0" text="A" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <Button fx:id="sbutton" mnemonicParsing="false" onAction="#saction" prefHeight="30.0" prefWidth="46.0" text="S" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-            <Button fx:id="dbutton" mnemonicParsing="false" onAction="#daction" prefHeight="30.0" prefWidth="46.0" text="D" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-            <Button fx:id="fbutton" mnemonicParsing="false" onAction="#faction" prefHeight="30.0" prefWidth="46.0" text="F" GridPane.columnIndex="4" GridPane.rowIndex="1" />
-            <Button fx:id="gbutton" mnemonicParsing="false" onAction="#gaction" prefHeight="30.0" prefWidth="46.0" text="G" GridPane.columnIndex="5" GridPane.rowIndex="1" />
-            <Button fx:id="hbutton" mnemonicParsing="false" onAction="#haction" prefHeight="30.0" prefWidth="46.0" text="H" GridPane.columnIndex="6" GridPane.rowIndex="1" />
-            <Button fx:id="jbutton" mnemonicParsing="false" onAction="#jaction" prefHeight="30.0" prefWidth="46.0" text="J" GridPane.columnIndex="7" GridPane.rowIndex="1" />
-            <Button fx:id="kbutton" mnemonicParsing="false" onAction="#kaction" prefHeight="30.0" prefWidth="46.0" text="K" GridPane.columnIndex="8" GridPane.rowIndex="1" />
-            <Button fx:id="lbutton" mnemonicParsing="false" onAction="#laction" prefHeight="30.0" prefWidth="46.0" text="L" GridPane.columnIndex="9" GridPane.rowIndex="1" />
-            <Button id="ent" fx:id="ent" mnemonicParsing="false" onAction="#entaction" prefHeight="100.0" prefWidth="46.0" text="ENTER" textAlignment="CENTER" GridPane.rowIndex="1" GridPane.rowSpan="2">
+            <Button id="Q" fx:id="qbutton" mnemonicParsing="false" onAction="#qaction" prefHeight="229.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="Q" textAlignment="CENTER">
                <font>
-                  <Font size="9.0" />
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button fx:id="wbutton" mnemonicParsing="false" onAction="#waction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="W" GridPane.columnIndex="1">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button fx:id="ebutton" mnemonicParsing="false" onAction="#eaction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="E" GridPane.columnIndex="2">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button fx:id="rbutton" mnemonicParsing="false" onAction="#raction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="R" GridPane.columnIndex="3">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button fx:id="tbutton" mnemonicParsing="false" onAction="#taction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="T" GridPane.columnIndex="4">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button fx:id="ybutton" mnemonicParsing="false" onAction="#yaction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="Y" GridPane.columnIndex="5">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button fx:id="ubutton" mnemonicParsing="false" onAction="#uaction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="U" GridPane.columnIndex="6">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button fx:id="ibutton" mnemonicParsing="false" onAction="#iaction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="I" GridPane.columnIndex="7">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button fx:id="obutton" mnemonicParsing="false" onAction="#oaction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="O" GridPane.columnIndex="8">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button fx:id="pbutton" mnemonicParsing="false" onAction="#paction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="P" GridPane.columnIndex="9">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button fx:id="abutton" mnemonicParsing="false" onAction="#aaction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="A" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button fx:id="sbutton" mnemonicParsing="false" onAction="#saction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="S" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button fx:id="dbutton" mnemonicParsing="false" onAction="#daction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="D" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button fx:id="fbutton" mnemonicParsing="false" onAction="#faction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="F" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button fx:id="gbutton" mnemonicParsing="false" onAction="#gaction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="G" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button fx:id="hbutton" mnemonicParsing="false" onAction="#haction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="H" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button fx:id="jbutton" mnemonicParsing="false" onAction="#jaction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="J" GridPane.columnIndex="7" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button fx:id="kbutton" mnemonicParsing="false" onAction="#kaction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="K" GridPane.columnIndex="8" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button fx:id="lbutton" mnemonicParsing="false" onAction="#laction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="L" GridPane.columnIndex="9" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button id="ent" fx:id="ent" mnemonicParsing="false" onAction="#entaction" prefHeight="100.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 1px;" text="ENTER" textAlignment="CENTER" GridPane.rowIndex="1" GridPane.rowSpan="2">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="8.0" />
                </font>
             </Button>
-            <Button fx:id="zbutton" mnemonicParsing="false" onAction="#zaction" prefHeight="30.0" prefWidth="46.0" text="Z" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" onAction="#xaction" prefHeight="30.0" prefWidth="46.0" text="X" GridPane.columnIndex="2" GridPane.rowIndex="2" fx:id="xbutton" />
-            <Button fx:id="cbutton" mnemonicParsing="false" onAction="#caction" prefHeight="30.0" prefWidth="46.0" text="C" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-            <Button fx:id="vbutton" mnemonicParsing="false" onAction="#vaction" prefHeight="30.0" prefWidth="46.0" text="V" GridPane.columnIndex="4" GridPane.rowIndex="2" />
-            <Button fx:id="bbutton" mnemonicParsing="false" onAction="#baction" prefHeight="30.0" prefWidth="46.0" text="B" GridPane.columnIndex="5" GridPane.rowIndex="2" />
-            <Button fx:id="nbutton" mnemonicParsing="false" onAction="#naction" prefHeight="30.0" prefWidth="46.0" text="N" GridPane.columnIndex="6" GridPane.rowIndex="2" />
-            <Button fx:id="mbutton" mnemonicParsing="false" onAction="#maction" prefHeight="30.0" prefWidth="46.0" text="M" GridPane.columnIndex="7" GridPane.rowIndex="2" />
-            <Button fx:id="cle" mnemonicParsing="false" onAction="#clraction" prefHeight="59.0" prefWidth="97.0" text="CLEAR" GridPane.columnIndex="8" GridPane.columnSpan="2" GridPane.rowIndex="2" />
+            <Button fx:id="zbutton" mnemonicParsing="false" onAction="#zaction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="Z" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#xaction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="X" GridPane.columnIndex="2" GridPane.rowIndex="2" fx:id="xbutton">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button fx:id="cbutton" mnemonicParsing="false" onAction="#caction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="C" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button fx:id="vbutton" mnemonicParsing="false" onAction="#vaction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="V" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button fx:id="bbutton" mnemonicParsing="false" onAction="#baction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="B" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button fx:id="nbutton" mnemonicParsing="false" onAction="#naction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="N" GridPane.columnIndex="6" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button fx:id="mbutton" mnemonicParsing="false" onAction="#maction" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="M" GridPane.columnIndex="7" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
+            <Button fx:id="cle" mnemonicParsing="false" onAction="#clraction" prefHeight="59.0" prefWidth="97.0" style="-fx-background-color: d3d6da; -fx-border-radius: 100px;" text="CLEAR" GridPane.columnIndex="8" GridPane.columnSpan="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="14.0" />
+               </font></Button>
          </children>
          <VBox.margin>
             <Insets left="50.0" right="50.0" top="50.0" />
