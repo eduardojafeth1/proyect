@@ -1,32 +1,45 @@
 package com.example.proyecto;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import javax.print.DocFlavor;
+import java.io.*;
+import java.util.Random;
+
+
 
 public class selectword {
-    public static int leer() throws IOException {
-        int texto;
-        try (BufferedReader lector = new BufferedReader(new FileReader("words.txt"))) {
+/*    public static void main(String[] args) throws IOException {
 
 
-            texto = 0;
-            String linea;
-            while ((linea = lector.readLine()) != null) {
-                System.out.println(linea);
-                texto++;
+        Random numrand = new Random();
+        String palabra, word;
 
+        String[] palabras = new String[1000];
 
-            }
+        FileReader leer = new FileReader("src\\words.txt");
+        BufferedReader narrador = new BufferedReader(leer);
 
-
+       for(int i=0;i<1000;i++) {
+            palabras[i] = narrador.readLine();
+            System.out.println(palabras[i]);
         }
-        return texto;
-    }
+        word = palabras[numrand.nextInt(1000)];
 
-    public static void main(String[] args) {
-        int a=1;
-        System.out.println(String.valueOf(a));
+    }*/
+String Selectword() throws IOException {
+    Random numrand = new Random();
+    int[] norepeat;
+    String palabra, word;
+
+    String[] palabras = new String[1000];
+
+    FileReader leer = new FileReader("src\\words.txt");
+    BufferedReader narrador = new BufferedReader(leer);
+
+    for(int i=0;i<1000;i++) {
+        palabras[i] = narrador.readLine();
+
     }
+    word = palabras[numrand.nextInt(1000)];
+    return word;
+}
 }

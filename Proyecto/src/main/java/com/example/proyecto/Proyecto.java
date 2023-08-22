@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Proyecto extends Application{
     @Override
     public void start( Stage stage) throws Exception {
-        FXMLLoader fxmlLoader= new FXMLLoader(Proyecto.class.getResource("playscene.fxml"));
+        FXMLLoader fxmlLoader= new FXMLLoader(Proyecto.class.getResource("startscreen.fxml"));
         Scene raiz= new Scene(fxmlLoader.load());
         stage.setTitle("Proyecto");
         stage.setScene(raiz);
