@@ -147,7 +147,7 @@ public class play_controller {
 etiqueta.setText("");
      }}
       else {
-          etiqueta.setText("invalid");
+          etiqueta.setText("Palabra invalida");
       }
    }
     private void verificacion(String word,String wordin) throws IOException {
@@ -240,7 +240,7 @@ etiqueta.setText("");
                 etiqueta.setText("");
             }}
             else {
-                etiqueta.setText("invalid");
+                etiqueta.setText("Palabra no valida");
             }
         }
             default -> /*throw new IllegalStateException("Unexpected value: " + tipeo)*/{
