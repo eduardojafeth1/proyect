@@ -3,7 +3,6 @@
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 
 <VBox alignment="CENTER" prefHeight="351.0" prefWidth="669.0" spacing="100.0" style="-fx-background-color: f2f2f2;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyecto.start_controller">
@@ -22,23 +21,7 @@
       <Button fx:id="credits" mnemonicParsing="false" onAction="#action" prefHeight="100" prefWidth="100" style="-fx-background-color: 0;" text="Credits" textAlignment="CENTER">
          <VBox.margin>
             <Insets bottom="20.0" />
-         </VBox.margin>
-         <textFill>
-            <LinearGradient endX="0.42424241340521607" endY="1.0" startX="0.5795454256462328" startY="0.9848484713019747">
-               <stops>
-                  <Stop>
-                     <color>
-                        <Color />
-                     </color>
-                  </Stop>
-                  <Stop offset="1.0">
-                     <color>
-                        <Color red="1.0" green="1.0" blue="1.0" />
-                     </color>
-                  </Stop>
-               </stops>
-            </LinearGradient>
-         </textFill></Button>
+         </VBox.margin></Button>
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />

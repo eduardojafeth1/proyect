@@ -5,20 +5,19 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.input.KeyEvent;
+import javafx.scene.layout.VBox;
 
 
 import java.io.IOException;
 
 
-
 public class play_controller {
-    public play_controller() {
-    }
+
 
     public void initialize() throws IOException {
        tryword="";
-       selectword word0=new selectword();
-       word=word0.Selectword();
+
+       word=metodo0.Selectword();
 
       labels=new Label[][]{{a0,a1,a2,a3,a4},
                         {b0,b1,b2,b3,b4},
@@ -32,11 +31,16 @@ public class play_controller {
 
    @FXML private Label etiqueta,a0,a1,a2,a3,a4,b0,b1,b2,b3,b4,c0,c1,c2,c3,c4,d0,d1,d2,d3,d4,e0,e1,e2,e3,e4,f0,f1,f2,f3,f4;
     @FXML private Button abutton,bbutton,cbutton,dbutton,ebutton,fbutton,gbutton,hbutton,ibutton,jbutton,kbutton,lbutton,mbutton,nbutton,obutton,pbutton,qbutton,rbutton,sbutton,tbutton,ubutton,vbutton,wbutton,xbutton,ybutton,zbutton;
+    @FXML
+    VBox root;
+
    private int labelspace=0,intento=0;
    private Label[][] labels;
    private int[] letras;
    private Button[] botones;
-   private String word,tryword;
+   public String word,tryword;
+    Metodos metodo0=new Metodos();
+
 
 
   /// @FXML private void presiondeboton(ActionEvent e){
@@ -111,25 +115,15 @@ public class play_controller {
     @FXML public void vaction(){
       action("V",21);
    }
-    @FXML public void baction(){
+    @FXML public void baction()  {
       action("B",1);
    }
-    @FXML public void naction(){
+    @FXML public void naction()  {
       action("N",13);
    }
     @FXML public void maction(){
       action("M",12);
    }
-/*@FXML private void buttonpressed(Event event){
-    Button presionado=new Button();
-    String nose;
-    if (labelspace<5){
-        presionado= (Button) event.getSource();
-        nose=presionado.getText();
-        labels[intento][labelspace].setText(nose);
-        labelspace++;
-    }
-}*/
 
     @FXML private void clraction(){
      if (labelspace>0){labels[intento][labelspace-1].setText("");
@@ -137,34 +131,38 @@ public class play_controller {
      labelspace--;}
 
    }
-   @FXML private void entaction() {
-     if(labelspace==5){
+   @FXML private void entaction() throws IOException {
+      if(metodo0.wordExist(tryword)){if(labelspace==5){
     verificacion(word,tryword);
          tryword="";
          labelspace=0;
      intento++;
      if(intento==6){
-         etiqueta.setText("Perdiste");
          for (Button botone : botones) {
              botone.setDisable(true);
          }
+         metodo0.cambiar("resultadoview.fxml",root);
        /// etiqueta.setStyle("-fx-background-color: #f00000");
      }
-
-     }
+etiqueta.setText("");
+     }}
+      else {
+          etiqueta.setText("invalid");
+      }
    }
-    private void verificacion(String word,String wordin){
-        int win=0;
+    private void verificacion(String word,String wordin) throws IOException {
+        int win0=0;
         for (int i=0;i<5;i++){
             if (word.charAt(i) == wordin.charAt(i)) {
           labels[intento][i].setStyle("-fx-background-color: #6AAA64");
           botones[letras[i]].setStyle("-fx-background-color: #6AAA64");
-          win++;
-          if (win==5){
-              etiqueta.setText("ganaste");
+          win0++;
+          if (win0==5){
+             metodo0.win=true;
               for (Button botone : botones) {
                   botone.setDisable(true);
               }
+              metodo0.cambiar("WINview.fxml",root);
           }
 
             } else if (word.contains(String.valueOf(wordin.charAt(i)))) {
@@ -180,27 +178,8 @@ public class play_controller {
 
 
     }
-  /*  @FXML public void keyTyped(KeyEvent e) {
-        char tecla = e.getKeyChar();
-        System.out.println("Tecla presionada: " + tecla);
-    }*/
- /* private String selectword() throws IOException {
-        Random numrand = new Random();
-        int[] norepeat;
-        String palabra, word;
 
-        String[] palabras = new String[1000];
 
-        FileReader leer = new FileReader("src\\words.txt");
-        BufferedReader narrador = new BufferedReader(leer);
-
-        for(int i=0;i<1000;i++) {
-            palabras[i] = narrador.readLine();
-
-        }
-        word = palabras[numrand.nextInt(1000)];
-        return word;
-    }*/
     private void action(String l,int p){
         if (labelspace<5){
             labels[intento][labelspace].setText(l);
@@ -208,9 +187,8 @@ public class play_controller {
             letras[labelspace]=p;
             labelspace++;}
     }
-    @FXML private void typear(KeyEvent event){
+    @FXML private void typear(KeyEvent event) throws IOException {
         String tipeo=event.getCode().toString();
-        System.out.println(tipeo);
         switch (tipeo) {
             case "A" -> action(tipeo, 0);
             case "B" -> action(tipeo, 1);
@@ -228,7 +206,7 @@ public class play_controller {
             case "N" -> action(tipeo, 13);
             case "O" -> action(tipeo, 14);
             case "P" -> action(tipeo, 15);
-           // case "Q" -> action(tipeo, 16);
+            case "Q" -> action(tipeo,16);
             case "R" -> action(tipeo, 17);
             case "S" -> action(tipeo, 18);
             case "T" -> action(tipeo, 19);
@@ -246,24 +224,27 @@ public class play_controller {
                 }
 
             }
-            case "ENTER"->{
-                if(labelspace==5){
-                    verificacion(word,tryword);
-                    tryword="";
-                    labelspace=0;
-                    intento++;
-                    if(intento==6){
-                        etiqueta.setText("Perdiste");
-                        for (Button botone : botones) {
-                            botone.setDisable(true);
-                        }
-                        /// etiqueta.setStyle("-fx-background-color: #f00000");
+            case "ENTER"-> {
+                if(metodo0.wordExist(tryword)){if(labelspace==5){
+                verificacion(word,tryword);
+                tryword="";
+                labelspace=0;
+                intento++;
+                if(intento==6){
+                    for (Button botone : botones) {
+                        botone.setDisable(true);
                     }
-
+                    metodo0.cambiar("resultadoview.fxml",root);
+                    /// etiqueta.setStyle("-fx-background-color: #f00000");
                 }
-
+                etiqueta.setText("");
+            }}
+            else {
+                etiqueta.setText("invalid");
             }
-            default -> throw new IllegalStateException("Unexpected value: " + tipeo);
+        }
+            default -> /*throw new IllegalStateException("Unexpected value: " + tipeo)*/{
+            }
         }
 
 

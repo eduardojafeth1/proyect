@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyecto.resultadocontroller">
+   <Button fx:id="conti" layoutX="128.0" layoutY="329.0" mnemonicParsing="false" onAction="#action" text="continue" textAlignment="CENTER" />
+   <Button fx:id="menu" layoutX="437.0" layoutY="329.0" mnemonicParsing="false" onAction="#action" text="menu" textAlignment="CENTER" />
+   <Label id="wL" fx:id="wL" alignment="CENTER" layoutX="183.0" layoutY="65.0" pickOnBounds="false" prefHeight="37.0" prefWidth="234.0" text="Ganaste" textAlignment="JUSTIFY">
+      <font>
+         <Font name="Franklin Gothic Book" size="49.0" />
+      </font>
+   </Label>
+   <Label fx:id="lose" layoutX="286.0" layoutY="200.0" />
+</AnchorPane>
